@@ -47,7 +47,7 @@ public:
     /// Выводит линии штриховки в текстовом формате
     void printHatchLines(const std::vector<Line_2>& lines) const;
 
-    /// Сохраненяет линии штриховки в SVG файле
+    /// Сохраняет линии штриховки в SVG файле
     void saveToSVG(const std::vector<Line_2>& lines, const std::string& filename) const;
 };
 
