@@ -28,13 +28,13 @@ private:
     double angle_;                 //!< Угол штриховки
     double step_;                  //!< Шаг между линиями штриховки
 
-    /// Поворачивает точку на заданный угол вокруг оси координат
+    /// Поворачивает точку на заданный угол вокруг начала координат
     Point_2 rotatePoint(const Point_2& point, double angle) const;
 
     /// Находит границы контура по осям X и Y
     void findBounds(const std::vector<Point_2>& contur, double& minX, double& minY, double& maxX, double& maxY) const;
 
-    /// Находит пересечения конутра с горизонтальной линией
+    /// Находит пересечения контура с горизонтальной линией
     std::vector<double> findHorizontalIntesections(const std::vector<Point_2>& contour, double yLine) const;
 
 
