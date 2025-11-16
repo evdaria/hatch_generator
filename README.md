@@ -20,12 +20,12 @@ cmake .. && make
 ./hatch_generator --angle <angle> --step <step>
 ```
 
-### Examples:
+### Example:
 ```bash
 ./hatch_generator --angle 45 --step 2.0
 ```
 ![test1](https://github.com/user-attachments/assets/5bd097c3-8240-4cd4-b2bf-fa3a021cc4e4)
-!<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="white"/>
   <g transform="translate(100 100) scale(10)">
     <polygon points="0,0 20,0 20,10 0,10 " fill="none" stroke="black" stroke-width="0.1"/>
